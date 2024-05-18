@@ -1,0 +1,431 @@
+/*public */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.clarfix{
+clear: both;
+
+}
+.overlay{
+background-color: rgba(0,0,0,.3);
+height: 100%;
+width: 100%;
+position: absolute;
+}
+.contaier{
+width: 70%;
+margin: auto;
+
+}
+/* header */
+.header{
+    background-image: url(../img/shutterstock_277750193.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+
+
+
+}
+/* nav-style */
+.nav .logo{
+    float: left;
+    width: 40%;
+}
+.nav .logo img{ 
+    width: 150px;
+}
+.nav .nav-content{
+float: left;
+width: 60%;
+padding-top: 30px;
+
+}
+.nav .nav-content .list-item{
+display: inline-block;
+margin-right: 20px;
+
+
+}
+.nav{
+    margin-top: 30px;
+}
+
+/* Header-content */
+.header-content{
+margin-top: 90px;
+color: aliceblue;
+
+
+}
+.header-content img{
+width: 20%;
+}
+.header-content h1{
+    font-size: 60px;
+    font-family: 'Alegreya', serif;
+    font-weight:400;
+}
+.header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.header-content button{
+    padding: 15px 30px;
+    border-radius: none;
+    font-size: 18px;
+
+
+}
+.header-content .btn{
+    background-color: #c1ab84;
+    color:white;
+    margin-right: 10px;
+
+}
+.header-content .btn:hover{
+    background-color: aliceblue;
+    color:black;
+    cursor: pointer;
+}
+/* about style */
+
+
+
+.about-img{
+    float: left;
+    width: 40%;
+}
+.about-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+.about-img img{
+
+width: 100%;
+}
+.about-content h2{
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #253025;
+
+
+}
+.about-content h3{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #c1ab84;
+
+}
+.about-content p{
+    font-size: 20px;
+   width: 450px;
+  margin:auto;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+}
+.list{
+    font-size: 20px;
+    text-align: left;
+   padding-left: 90px;
+   margin-bottom: 10px;
+   width:450px;
+}
+.about-content ul li i {
+background-color: #c1ab84;
+font-size: 30px;
+border-radius: 50%;
+background-size: 100px;
+color:white;
+height: 50px;
+width:50px;
+text-align: center;
+margin-top: 15px;
+line-height: 50px;
+
+}
+.about-content ul li span {
+    margin-left: 40px;
+}
+/* reviwer section */
+.reviwer {
+    margin-top: 70px;
+
+    background-color: #f8f8f8;
+    
+}
+.reviwer-img ,.location .location-img{
+
+float: right;
+width:40%;
+margin-top: 80px;
+
+}
+.reviwer-content  {
+    float: left;
+    width: 60%;
+    margin-top: 80px;
+}
+.reviwer .reviwer-img img{
+width: 100%;
+
+}
+.reviwer .reviwer-content h2 ,.location .location-content h2{
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    color: rgb(37, 48, 72);
+    margin-bottom: 15px;
+    font-weight: 400;
+
+    
+}
+.reviwer .reviwer-content h3{
+    font: size 30px; 
+    font-family: 'Dancing Script', cursive;
+    color:rgb(193, 171, 132);
+    margin-bottom: 20px;
+
+}
+.reviwer .reviwer-content p ,.location .location-content p{
+    font-size: 20px;
+    width: 400px;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+
+}
+.reviwer .reviwer-content ul li i {
+color: #c1ab84;
+margin: 0 20px 20px 0;
+font-size: 20px;
+}
+.reviwer .reviwer-content ul li span {
+    font-size: 15px;
+}
+/* cover section */
+.cover{
+background-image: url(../img/background.jpg);
+padding-top: 250px;
+padding-bottom: 250px;
+background-size: cover;
+background-attachment: fixed;
+}
+/* menu section */
+.menu{
+    text-align: center;
+    margin-top: 70px;
+}
+.menu h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+.menu .menu-title h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.menu-content .item img {
+
+    width: 80%;
+}
+
+.menu-content .item{
+    float: left;
+    width:33%;
+}
+.menu-content .item h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-top: 20px;
+   padding-bottom: 25px;
+   
+
+
+}
+.menu-content .item p{
+   margin: auto;
+    width:180px ;
+    line-height: 30px;
+    margin-bottom: 40px;
+
+}
+.menu .btn1{
+width: 140px;
+height: 40px;
+
+border-radius: 10px;
+background-color: #c1ab84;
+color: white;
+border-style: none;
+font-size: 15px;
+}
+/* location section */
+.location{
+    
+    background-color:#f8f8f8;
+    overflow: hidden;
+    margin-top: 30px;
+   
+}
+.location .location-content h2{
+    margin-top: 50px;
+}
+
+.location-img iframe{
+ float: left;
+ width: 50%;   
+width: 600px;
+margin-bottom: 50px;
+}
+.location .location-content ul li i{
+
+margin-bottom: 30px;
+background-color: #c1ab84;
+color: white;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+
+}
+.location .location-content ul li span{
+    margin-left: 30px;
+}
+/* footer */
+.footer{
+    background-color: #403d38;
+    height: 50vh;
+ 
+}
+
+.item1{
+    float: left;
+    width: 25%;
+}
+.item1 h2{
+font-size: 15px;
+margin-bottom: 35px;
+margin-top: 30px;
+color: white;
+font-weight: 400;
+
+
+}
+.item1 p{
+width: 150px;
+font-weight: 400;
+font-size: 14px;
+color: #969696;
+
+}
+.item1 ul li a{
+    color:#969696;
+    font-size: 14px;
+  
+}
+.item1 ul li a:hover{
+color: white;
+}
+.item1 ul li {
+
+    margin-bottom: 25px;
+}
+.item1 .span{
+   
+    width: 150px;
+    display: inline-block;
+    margin-top: 20px;
+color: #969696;
+}
+.item1 span{
+    font-size: 14px;
+    color: #969696;
+}
+.item1 ul li i {
+    color:#969696 ;
+    margin-right: 10px;
+}
+/* lastfooter section */
+.end-footer{
+background-color: #353330;
+text-align: center;
+}
+
+.end-footer-content img{
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+
+}
+.end-footer-content p{
+    margin: auto;
+color: #969696;
+width: 200px;
+}
+.end-footer-content .social{
+    margin-top: 30px;
+   display: inline-block;
+    height: 60px;
+    width: 55px;
+    background-color:#484540;
+    border-radius: 20px;
+    line-height: 60px;
+    color: #969696;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.end-footer-content .social:hover{
+    background-color: #3b5998;
+    color: white;
+    
+    }
+ @media(max-width:576px){
+    .header{
+        
+    }
+   
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
